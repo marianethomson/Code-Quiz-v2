@@ -36,6 +36,4 @@ The following image (...)
 
 ## Deployment
 
-The application is deployed at or can be accessed via the following QR code:
-
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/Images/frame.png =100x20)
+The application is deployed at <https://marianethomson.github.io/Code-Quiz-v2/> .

@@ -1,2 +1,36 @@
-/*font-family: 'Audiowide', cursive;
-font-family: 'Lato', sans-serif;*/
+:root {
+  --outrageous-orange: #ef5734;
+  --sunglow: #ffcc2f;
+  --blackcurrant: #2a0944;
+  --christalle: #3b185f;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--outrageous-orange);
+  background-image: linear-gradient(
+    315deg,
+    var(--outrageous-orange),
+    var(--sunglow) 74%
+  );
+}
+
+.nav-custom {
+  background-color: var(--blackcurrant);
+}
+.custom-brand {
+  font-family: "Audiowide", cursive;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: var(--sunglow);
+}
+
+.custom-btn {
+  border-radius: 0%;
+}
+
+#ranking {
+  background-color: var(--outrageous-orange);
+  border: none;
+  box-shadow: none;
+}

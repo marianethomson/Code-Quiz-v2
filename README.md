@@ -38,4 +38,4 @@ The following image (...)
 
 The application is deployed at or can be accessed via the following QR code:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/Images/frame.png)
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/Images/frame.png =100x20)

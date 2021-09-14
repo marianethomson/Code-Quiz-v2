@@ -24,7 +24,43 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="./Assets/css/style.css" />
   </head>
-  <body>
+  <body class="min-vh-100">
+    <nav class="navbar nav-custom">
+      <a class="navbar-brand custom-brand">Code Quiz</a>
+      <div class="bg-info clearfix">
+        <button
+          class="btn btn-warning custom-btn my-2 my-sm-0 float-right"
+          id="rules"
+        >
+          Rules
+        </button>
+        <button class="btn custom-btn my-2 my-sm-0 float-right" id="ranking">
+          Ranking
+        </button>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 col-lg-3 invisible"></div>
+        <div class="col-6 col-md-4 col-lg-3">Score</div>
+        <div class="col-6 col-md-4 col-lg-3">Remaining Time</div>
+        <div class="col-md-2 col-lg-3 invisible"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 col-lg-3 invisible"></div>
+        <div class="col-12 col-md-8 col-lg-6">question</div>
+        <div class="col-md-2 col-lg-3 invisible"></div>
+      </div>
+    </div>
+
+    <footer class="fixed-bottom">
+      <div class="container">
+        <p>&copy; 2021 Mariane Thomson</p>
+      </div>
+    </footer>
     <!--JQuery and Bootstrap js-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
